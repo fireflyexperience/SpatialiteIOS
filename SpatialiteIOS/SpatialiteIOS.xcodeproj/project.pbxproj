@@ -13,6 +13,7 @@
 		B82726371BD724F200136243 /* libspatialite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82726311BD724F200136243 /* libspatialite.a */; settings = {ASSET_TAGS = (); }; };
 		B82726381BD724F200136243 /* libsqlite3.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82726321BD724F200136243 /* libsqlite3.a */; settings = {ASSET_TAGS = (); }; };
 		B82726391BD724F200136243 /* mod_spatialite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B82726331BD724F200136243 /* mod_spatialite.a */; settings = {ASSET_TAGS = (); }; };
+		B8272C0A1BD726E000136243 /* SpatialiteIOS.h in Headers */ = {isa = PBXBuildFile; fileRef = B85EFF861BD7049C00F7ABAB /* SpatialiteIOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B85EFFC91BD7193C00F7ABAB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B85EFFC81BD7193C00F7ABAB /* libz.tbd */; };
 		B85EFFCB1BD7194500F7ABAB /* libxml2.2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B85EFFCA1BD7194500F7ABAB /* libxml2.2.tbd */; };
 		B85EFFCD1BD7195000F7ABAB /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = B85EFFCC1BD7195000F7ABAB /* libc++.tbd */; };
@@ -118,6 +119,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8272C0A1BD726E000136243 /* SpatialiteIOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
